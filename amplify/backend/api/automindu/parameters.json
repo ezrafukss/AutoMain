@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "automindu",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authautomindu14408d98",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
